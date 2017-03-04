@@ -83,42 +83,27 @@ a {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	padding: 3% 5%;
-	margin: 2%;
+	margin-top: 2%;
 }
 
-.top-sidebar {
-	width: 21%;
+.bottomContent {
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 22%;
 	float: left;
 	background-color: #fff;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	margin:2% 0 2% 3%;
-	padding: 2% 3%;
-}
-
-.middle-sidebar {
-	width: 21%;
-	float: left;
-	background-color: #fff;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin-left: 3%;
-	margin-bottom: 2%;
-	padding: 2% 3%;
-}
-
-.bottom-sidebar {
-	width: 21%;
-	float: left;
-	background-color: #fff;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin-left: 3%;
-	margin-bottom: 2%;
-	padding: 2% 3%;
+	margin:1.5% 0 2% 2%;
+	padding: 0 3%;
 }
 
 /*=============== Footer ===================*/
@@ -140,6 +125,7 @@ a {
 	color: #fff;
 }
 
+/*==================================================*/
 /* breaking point for mobile phone */
 @media only screen and (min-width: 150px) and (max-width: 600px)
 {
@@ -148,6 +134,7 @@ a {
 		font-size: 95%;
 	}
 	
+	/*============== Nav bar ==============================*/
 	.mainheader nav{
 		height: 160px;
 	}
@@ -164,9 +151,30 @@ a {
 	.mainheader nav a:link, .mainheader nav a:visited {
 		padding: 10px 25px;
 		height: 20px;
+		display: block;
 	}
-
 	
+	/*============== homepage content ==============================*/
+	.content{
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+	
+	.topContent {
+		margin-top: 3%;
+		margin-bottom: 4%;
+	}
+	
+	.bottomContent {
+		margin-top: 3%;
+	}
+	
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		width: 94%;
+		margin:2% 0 2% 0;
+		padding: 2% 3%;
+	}
 }
 
 
