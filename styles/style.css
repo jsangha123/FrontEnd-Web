@@ -150,6 +150,31 @@ a {
 	border-width: 1px;
 }
 
+/* slide show */
+#slideshow {
+	width: 50%;
+	height: auto;
+}
+
+#slideshow img{
+	width: 50%;
+	height: auto;
+}
+
+#pager{
+	width: 50%;
+	height: auto;
+	bottom: 5%;
+	background: rgba(0,0,0,.5);
+	z-index: 1000;
+	opacity: 0;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+#pager:hover {
+	opacity: 1;
+}
+
 /*=============== Footer ===================*/
 .mainFooter{
 	width: 100%;
