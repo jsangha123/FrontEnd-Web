@@ -171,6 +171,14 @@ a {
 	width: 100%;
 }
 
+/*================ Special Offers Page ===================*/
+.spProducts p{
+	text-align; center;
+}
+.spProducts img{
+	width: 16%;
+	border: none;
+}
 
 /*=============== Footer ===================*/
 .mainFooter{
@@ -244,7 +252,7 @@ a {
 	
 	.top-sidebar, .middle-sidebar, .bottom-sidebar {
 		width: 94%;
-		margin:2% 0 2% 0;
+		margin:2% 0 1% 0;
 		padding: 2% 3%;
 	}
 	
