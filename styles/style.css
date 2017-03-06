@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=pacifico');
+
+
 body {
 	background: #DCDCDC; 
 	color: #000305;
 	font-size: 87.5%; 
-	font-family: Arial, 'Lucida Sans Unicode';
+	font-family: 'Pacifico', cursive;
 	line-height: 1.5;
 	text-align: left;
 }
@@ -146,6 +149,11 @@ a {
 	border-width: 1px;
 }
 
+.bottom-sidebar a{
+	text-decoration: none;
+	color: #000000;
+}
+
 /* google maps  */
 .middle-sidebar iframe{
 	width: 90%;
@@ -172,12 +180,43 @@ a {
 }
 
 /*================ Special Offers Page ===================*/
-.spProducts p{
-	text-align; center;
+.SOtopContent {
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	
 }
-.spProducts img{
-	width: 16%;
-	border: none;
+
+.SOtopContent table{
+	margin-left: 10%;	
+}
+
+.SOtopContent td{
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;	
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+	
+}
+
+.SOtopContent td:hover{
+	transform: scale(1.05);
+}
+
+.SOtopContent td a{
+	text-decoration: none;
+	color: #a9a9a9;
+}
+
+.SOtopContent img{
+	width: 50%;
+	margin:1% 0 0 0;
+	padding: 1%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 /*=============== Footer ===================*/
