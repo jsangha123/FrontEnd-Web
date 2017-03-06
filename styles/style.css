@@ -306,6 +306,26 @@ a {
 	    width:100%;
 	    height:auto;
 	}
+	
+	/*===================== special offers page ===================*/
+
+	
+	.SOtopContent table{
+		margin: 0 auto;	
+	}
+	
+	.SOtopContent td{
+		float: left;
+	}
+		
+	.SOtopContent td a{
+		text-align: center;
+	}
+	
+	.SOtopContent img{
+		width: 100%;
+		
+	}
 }
 
 
