@@ -186,6 +186,25 @@ a {
 	width: 100%;
 }
 
+/*=============== Footer ===================*/
+.mainFooter{
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin: 2% 0;
+
+}
+
+.mainFooter p{
+	width: 92%;
+	margin: 10px auto;
+	color: #fff;
+}
+
 /*================ Special Offers Page ===================*/
 .SOtopContent {
 	background-color: #fff;
@@ -226,25 +245,40 @@ a {
 	-webkit-border-radius: 5px;
 }
 
-/*=============== Footer ===================*/
-.mainFooter{
-	width: 100%;
-	height: 40px;
-	float: left;
+/*=========== Carling Page ========================*/
+.CtopContent {
+	background-color: #fff;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-color: #666;
-	margin: 2% 0;
-
+	padding: 3% 5%;
+	margin-top: 2%;
+	float: left;
+	
 }
 
-.mainFooter p{
-	width: 92%;
-	margin: 10px auto;
-	color: #fff;
+.CtopContent img{
+	width: 40%;
+	height:0 auto;
+	margin-right: 100%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
+.CtopContent table{
+	margin-left: 24%;
+	
+}
+
+.CtopContent p, h2{
+	margin-left: 25%;
+}
+
+.CtopContent h3{
+	margin-left: 25%;
+	border-bottom: 1px solid #000000;
+}
 /*==================================================*/
 /* breaking point for mobile phone */
 @media only screen and (min-width: 150px) and (max-width: 900px)
@@ -332,6 +366,22 @@ a {
 	.SOtopContent img{
 		width: 100%;
 		
+	}
+	
+	/*=========== Carling Page ========================*/
+	
+	.CtopContent img{
+		width: 90%;
+	}
+	
+	.CtopContent table{
+		margin-left: auto;
+		text-align: center;
+		
+	}
+	
+	.smalltable table{
+		margin-left: auto;
 	}
 }
 
