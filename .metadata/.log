@@ -438,3 +438,61 @@ java.io.IOException: rename failed
 	at org.eclipse.osgi.internal.baseadaptor.BaseStorage.saveAllData(BaseStorage.java:468)
 	at org.eclipse.osgi.internal.baseadaptor.BaseStorage$StateSaver.run(BaseStorage.java:1314)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2017-03-07 14:33:24.425 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-03-07 17:37:29.235
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-03-07 17:37:29.235
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-03-07 17:37:29.250
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-03-07 17:37:29.250
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2017-03-09 16:22:42.401 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 4 0 2017-03-09 16:23:23.999
+!MESSAGE 
+!STACK 0
+java.io.IOException: rename failed
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFile.mv(ReliableFile.java:481)
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFile.closeOutputFile(ReliableFile.java:402)
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFileOutputStream.close(ReliableFileOutputStream.java:116)
+	at org.eclipse.osgi.storagemanager.StorageManager.save(StorageManager.java:552)
+	at org.eclipse.osgi.storagemanager.StorageManager.add(StorageManager.java:234)
+	at org.eclipse.osgi.storagemanager.StorageManager.closeOutputStream(StorageManager.java:902)
+	at org.eclipse.osgi.storagemanager.ManagedOutputStream.close(ManagedOutputStream.java:52)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at java.io.FilterOutputStream.close(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage.saveBundleDatas(BaseStorage.java:604)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage.saveAllData(BaseStorage.java:467)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage$StateSaver.run(BaseStorage.java:1314)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 4 0 2017-03-09 16:23:26.149
+!MESSAGE 
+!STACK 0
+java.io.IOException: rename failed
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFile.mv(ReliableFile.java:481)
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFile.closeOutputFile(ReliableFile.java:402)
+	at org.eclipse.osgi.framework.internal.reliablefile.ReliableFileOutputStream.close(ReliableFileOutputStream.java:116)
+	at org.eclipse.osgi.storagemanager.StorageManager.save(StorageManager.java:552)
+	at org.eclipse.osgi.storagemanager.StorageManager.add(StorageManager.java:234)
+	at org.eclipse.osgi.storagemanager.StorageManager.add(StorageManager.java:205)
+	at org.eclipse.osgi.storagemanager.StorageManager.lookup(StorageManager.java:430)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage.saveStateData(BaseStorage.java:675)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage.saveAllData(BaseStorage.java:468)
+	at org.eclipse.osgi.internal.baseadaptor.BaseStorage$StateSaver.run(BaseStorage.java:1314)
+	at java.lang.Thread.run(Unknown Source)

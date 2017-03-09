@@ -223,8 +223,7 @@ a {
 .SOtopContent td{
 	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;	
-	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-	
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;	
 }
 
 .SOtopContent td:hover{
@@ -264,6 +263,25 @@ a {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;	
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;	
+}
+
+.CtopContent img:hover{
+	transform: scale(1.05);
+}
+
+.CtopContent td{
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;	
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;	
+}
+
+.CtopContent td:hover {
+	transform: scale(1.05);
+}
+
 }
 
 .CtopContent table{
