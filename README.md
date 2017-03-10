@@ -7,7 +7,7 @@ Before I build the website I thought it would be a good idea to design what the 
 As the business already had its own colour scheme I did not have to create one as I just used there current colour scheme which was purple and grey.
 
 Figure 1 mobile design layout
-<img src="image/mobiledesign.jpg" style:"width: 100px; height:100px;" />
+<img src="image/mobiledesign.jpg" />
 
 Figure 2 full screen layout
 <img src="image/indexdesign.jpg" />
@@ -18,6 +18,7 @@ Figure 3 choosing a product
 Figure 4 product page
 <img src="image/productpage.jpg" />
 
+figure 3 and 4 will be the layout for when all the products are on the same page for example the grocery page then figure 4 is the design it looks like when a certain product is clicked and all the information is displayed about it.
 Problems and Issues:
 The problems and issues I encountered while making the website was the resizing of the layout of the page which has all the products displayed as some images would lose their qulaity and would not go in the right place when it was resized to the mobile screen size therefore I put the content into a table which held all the images and text together so it would not lose its layout.
 
