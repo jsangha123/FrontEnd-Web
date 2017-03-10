@@ -25,3 +25,4 @@ The problems and issues I encountered while making the website was the resizing 
 
 Credits:
 jQuery - cloudflare 
+layout - w3 schools
